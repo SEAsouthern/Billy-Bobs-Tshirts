@@ -6,41 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="billy.js"></script>
 </head>
 <body>
-<header>
-     <h1>Billy Bob's T-Shirts</h1>
-     <script src="billy.js"></script>
-    <nav>
-        <ul>
-            <li><a href="">Mens</a></li>
-            <li><a href="">Womens</a></li>
-            <li><a href="">Childrens</a></li>
-        </ul>
-    </nav>
- </header>   
- <main>
-<section>
-    <article>
-        <h1>Products</h1>
+    <header>
+        <h1>Billy Bob's T-Shirts</h1>
+        <script>document.write(sayGreeting); </script>
+        <nav>
             <ul>
-                <li>Short Sleeve</li>
-                <li>Long Sleeve</li>
-                <li>Tank Tops</li>
+                <li><a href="">Mens</a></li>
+                <li><a href="">Womens</a></li>
+                <li><a href="">Childrens</a></li>
             </ul>
-        <p>Product testimonal lorem ipsum </p>
-    </article>
-<article>
-    <img src="https://cdn.shopify.com/s/files/1/1254/4197/products/create-it-thumbnail_grande.jpg?v=1520013720" class="large" alt="t">
-</article>
- </main>
- <footer>
-     <section><nav><ul>
-         <li><a href=""></a>About Us</li>
-         <li><a href=""></a>Contact Us</li>
-         <li><a href=""></a>Business Partners</li>
-     </ul></nav>
-    </section>
- </footer>
+        </nav>
+    </header>   
+    <main>
+        <section>
+            <article>
+                <h1>Products</h1>
+                    <ul>
+                        <li>Short Sleeve</li>
+                        <li>Long Sleeve</li>
+                        <li>Tank Tops</li>
+                    </ul>
+                <p>Product testimonal lorem ipsum </p>
+                <script>document.write(userGreeting())</script>
+            </article>
+            <article>
+                <img src="https://cdn.shopify.com/s/files/1/1254/4197/products/create-it-thumbnail_grande.jpg?v=1520013720" class="large" alt="t">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href=""></a>About Us</li>
+                    <li><a href=""></a>Contact Us</li>
+                    <li><a href=""></a>Business Partners</li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
 </body>
 </html>
